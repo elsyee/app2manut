@@ -13,7 +13,6 @@ class iniSplash : AppCompatActivity() {
 
         Handler(Looper.getMainLooper()).postDelayed({
             startActivity(Intent(this, MainActivity::class.java))
-            finish() // Tutup Splash biar gak bisa balik
-        }, 3000) // 3000 ms = 3 detik
+            finish() }, 3000)
     }
 }
